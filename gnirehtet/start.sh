@@ -1,3 +1,3 @@
 #!/bin/bash
 adb devices
-./gnirehtet run
+gnirehtet run 2>&1 | tee gnirehtetlog.txt
